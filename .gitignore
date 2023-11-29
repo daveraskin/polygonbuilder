@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+.env
+
+# Virtual environment
+venv/
+Pipfile.lock
+poetry.lock
+
+# Database
+*.sqlite3
+
+# Static files (usually collected by Django's collectstatic)
+staticfiles/
+
+# Media files
+media/
+
+# Site-specific configurations
+*.log
+*.pot
+*.pyo
+
+# Ignore development and environment-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+
+# Ignore pytest cache
+__pycache__/
+.pytest_cache/
